@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <title>Sample Google Form</title>
+  </head>
+  <body>
+    <div class="evp">
+      <img
+        src="event.jpeg" width="500px" height="300px"
+      />
+    </div>
+    <div class="col">
+    <div>
+      <h1>Event Registration</h1>
+      <br />
+      <br />
+    
+      <div id="para">
+      <p>Event Timing:January 4th-6th,2016</p>
+      <p>Event Address:123 Your Street Your City,ST 12345</p>
+      <p>
+        Contact us at(123) 456-7890 or
+        <a href="https://www.eventbrite.com/">no_reply@example.com</a>
+      </p>
+    </div>
+    </div>
+    <form action="https://www.google.com/webhp">
+      <div class="personalinfo">
+        <div>
+          <label for="name"><span class="required">NAME</span></label>
+          <span class="hover"><input type="text" placeholder="ENTER NAME" id="name" /></span>
+          <label for="image"><span class="required">Upload Your Image</span></label>
+          <span class="hover"><input type="file" id="image" /></span>
+        </div>
+        <br />
+        <div>
+          <label for="pinfo">Tell us about yourself</label>
+          <input type="text" id="pinfo" />
+        </div>
+        <br />
+      </div>
+      <br />
+      <div class="personalemail">
+        <label for="email"><span class="required">EMAIL</span></label>
+        <input type="text" placeholder="........@gmail.com" id="email" size="30"/>
+      </div>
+      <br />
+      <div class="org">
+        <label for="org">organisation</label>
+        <input type="text" name="org" id="org" />
+      </div>
+      <div class="days">
+        <label for="dd"><span class="required">What days will you attend?</span></label><br />
+        <input type="checkbox" id="dd" />Day1 <br />
+        <input type="checkbox" id="dd" />Day2 <br />
+        <input type="checkbox" id="dd" />Day2 <br />
+      </div>
+      <div class="diet">
+        <label for="diet">Dietary Restriction</label> <br />
+        <input type="radio" name="diet" id="11" />
+        <label for="11">None</label> <br />
+        <input type="radio" name="diet" id="11" />
+        <label for="11">Vegetarian</label> <br />
+        <input type="radio" name="diet" id="11" />
+        <label for="11">Vegan</label> <br />
+        <input type="radio" name="diet" id="11" />
+        <label for="11">Kosher</label> <br />
+        <input type="radio" name="diet" id="11" />
+        <label for="11">Gluten-free</label> <br />
+        <input type="radio" name="diet" id="11" />
+        <input type="text" placeholder="Other" />
+      </div>
+      <div class="term">
+        <p>I understand that I will have to pay $$ upon arrival</p>
+        <input type="checkbox" id="terms" />
+        <label for="terms"><span class="required">Yes</span></label>
+      </div>
+      <br />
+      <br />
+    </div>
+    <div class="button">
+      <button>Finish</button>
+    </div>
+    </form>
+   
+  </body>
+</html>
